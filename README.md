@@ -1,30 +1,4 @@
-# whatsapp-chat-analysis
-Analyze WhatsApp chats with message stats, word clouds, and emoji insights — built with Streamlit.
 
-
-# 📊 WhatsApp Chat Analyzer
-
-A **Streamlit web app** to analyze your WhatsApp chat data with rich visualizations, word clouds, emoji insights, and user activity statistics.
-
----
-
-## 🔍 Features
-
-- 📁 Upload `.txt` chat files exported from WhatsApp  
-- 📈 Visualize:
-  - Monthly and daily message timelines
-  - Most active users in group chats
-  - Word clouds of most frequently used words
-  - Weekly activity heatmaps (days & hours)
-  - Emoji usage breakdown  
-- 📊 Summary metrics:
-  - Total messages
-  - Word count
-  - Shared media
-  - Shared links  
-- 🌗 Clean, dark-theme friendly UI with transparent plots
-- 🔗 Connect with me on [LinkedIn](# whatsapp-chat-analysis
-Analyze WhatsApp chats with message stats, word clouds, and emoji insights — built with Streamlit.
 
 
 # 📊 WhatsApp Chat Analyzer
