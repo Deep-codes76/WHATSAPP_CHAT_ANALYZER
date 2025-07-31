@@ -2,60 +2,151 @@
 Analyze WhatsApp chats with message stats, word clouds, and emoji insights — built with Streamlit.
 
 
+# 📊 WhatsApp Chat Analyzer
 
-📊 WhatsApp Chat Analyzer
-A Streamlit web app that allows you to upload and analyze your exported WhatsApp chat data with rich visualizations and statistics.
+A **Streamlit web app** to analyze your WhatsApp chat data with rich visualizations, word clouds, emoji insights, and user activity statistics.
 
-🔍 Features
-📁 Upload and process .txt chat files exported from WhatsApp
+---
 
-📈 Visualize:
+## 🔍 Features
 
-Monthly and daily message timelines
+- 📁 Upload `.txt` chat files exported from WhatsApp  
+- 📈 Visualize:
+  - Monthly and daily message timelines
+  - Most active users in group chats
+  - Word clouds of most frequently used words
+  - Weekly activity heatmaps (days & hours)
+  - Emoji usage breakdown  
+- 📊 Summary metrics:
+  - Total messages
+  - Word count
+  - Shared media
+  - Shared links  
+- 🌗 Clean, dark-theme friendly UI with transparent plots
+- 🔗 Connect with me on [LinkedIn](# whatsapp-chat-analysis
+Analyze WhatsApp chats with message stats, word clouds, and emoji insights — built with Streamlit.
 
-Most active users in group chats
 
-Word clouds of most used words
+# 📊 WhatsApp Chat Analyzer
 
-Activity heatmaps (days/hours)
+A **Streamlit web app** to analyze your WhatsApp chat data with rich visualizations, word clouds, emoji insights, and user activity statistics.
 
-Emoji usage statistics
+---
 
-📊 Summary statistics:
+## 🔍 Features
 
-Total messages
+- 📁 Upload `.txt` chat files exported from WhatsApp  
+- 📈 Visualize:
+  - Monthly and daily message timelines
+  - Most active users in group chats
+  - Word clouds of most frequently used words
+  - Weekly activity heatmaps (days & hours)
+  - Emoji usage breakdown  
+- 📊 Summary metrics:
+  - Total messages
+  - Word count
+  - Shared media
+  - Shared links  
+- 🌗 Clean, dark-theme friendly UI with transparent plots
+- 🔗 Connect with me on [LinkedIn]((https://www.linkedin.com/in/deepanshu-kumar-4412b02bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
 
-Word count
+---
 
-Shared media
+## ⚠️ DISCLAIMER
 
-Shared links
+> ❗ **This app only supports chat exports in 24-hour format.**  
+> Please ensure your WhatsApp export uses 24-hour time (disable AM/PM format).  
+> This is essential for accurate parsing of chat timestamps.
 
-🌗 Clean, dark-mode friendly UI with transparent plots and custom themes
+---
 
-🔗 Link to my LinkedIn for collaboration
+## 🚀 How to Use
 
-⚠️ DISCLAIMER
-❗ This app only supports WhatsApp chat exports in 24-hour time format.
-Make sure to disable AM/PM format when exporting chats from your WhatsApp settings.
-(Usually applies when exporting from Android — iOS may require manual conversion.)
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/your-username/whatsapp-chat-analyzer.git
+   cd whatsapp-chat-analyzer
+
 
 🚀 How to Use
 1. Clone the repo
 
-2. Install requirements using
-      pip install -r requirements.txt
-3. Run the app:
-    streamlit run app.py
-4. Upload your exported WhatsApp chat .txt file
+2. Install the required dependencies:
+   pip install -r requirements.txt
 
-5. Enjoy the analysis!
+
+4. Run the app:
+    streamlit run app.py
+5. Upload your exported WhatsApp chat file (.txt format)
+   - Export WITHOUT media
+   - Ensure chat timestamps are in 24-hour format
+
+
+6. Enjoy the analysis!
 
 📌 Notes
-Supports individual and group chats
+Works with both individual and group chats
 
-Data stays on your local machine – privacy-friendly
+Data is processed locally (nothing is uploaded to a server)
 
-Works best with English chats (for word cloud/analysis)
+Word cloud and NLP features work best with English chats
+
+You can customize themes, palettes, and plot styles in app.py
+
+
+
+👨‍💻 Author
+Deepanshu
+LinkedIn
+)
+
+---
+
+## ⚠️ DISCLAIMER
+
+> ❗ **This app only supports chat exports in 24-hour format.**  
+> Please ensure your WhatsApp export uses 24-hour time (disable AM/PM format).  
+> This is essential for accurate parsing of chat timestamps.
+
+---
+
+## 🚀 How to Use
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/your-username/whatsapp-chat-analyzer.git
+   cd whatsapp-chat-analyzer
+
+
+🚀 How to Use
+1. Clone the repo
+
+2. Install the required dependencies:
+   pip install -r requirements.txt
+
+
+4. Run the app:
+    streamlit run app.py
+5. Upload your exported WhatsApp chat file (.txt format)
+   - Export WITHOUT media
+   - Ensure chat timestamps are in 24-hour format
+
+
+6. Enjoy the analysis!
+
+📌 Notes
+Works with both individual and group chats
+
+Data is processed locally (nothing is uploaded to a server)
+
+Word cloud and NLP features work best with English chats
+
+You can customize themes, palettes, and plot styles in app.py
+
+
+
+👨‍💻 Author
+Deepanshu
+[LinkedIn](https://www.linkedin.com/in/deepanshu-kumar-4412b02bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 
